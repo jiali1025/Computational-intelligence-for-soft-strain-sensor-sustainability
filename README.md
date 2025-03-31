@@ -1,24 +1,24 @@
 # Computational-intelligence-for-soft-strain-sensor-sustainability
 
-Installation
+###Installation
 The requirement environment is as follow
-Operating System: Windows / macOS / Linux
-python >= 3.8
-numpy~=2.0.2
-pandas~=2.2.2
-scipy~=1.14.1
-scikit-learn~=1.5.2
-matplotlib~=3.9.2
-keras~=3.8.0
-torch~=2.4.1+cu118
-torchvision~=0.19.1+cu118
-shap~=0.46.0
-umap-learn~=0.5.6
-scikit-optimize~=0.10.2
-transformers~=4.44.2
-tensorboard~=2.18.0
+* Operating System: Windows / macOS / Linux
+* python >= 3.8
+* numpy~=2.0.2
+* pandas~=2.2.2
+* scipy~=1.14.1
+* scikit-learn~=1.5.2
+* matplotlib~=3.9.2
+* keras~=3.8.0
+* torch~=2.4.1+cu118
+* torchvision~=0.19.1+cu118
+* shap~=0.46.0
+* umap-learn~=0.5.6
+* scikit-optimize~=0.10.2
+* transformers~=4.44.2
+* tensorboard~=2.18.0
 
-Explanation of codes
+###Explanation of codes
 
 This project addresses four key issues regarding sensor sustainability: nonlinearity, hysteresis, cycling attenuation, and batch inconsistency. For each issue, we provide model code along with the models saved from the experimental results in the paper. Details are as follows:
 
@@ -63,6 +63,7 @@ Contains three sample applications. Each folder includes the corresponding model
     + 01 flexible robot arm
     + 02 soft quadruped robot
     + 03 dexterous robot hand
+
 Within each application folder:
 D_former_FRA.py, D_Former model.py, application_D_Former_dexterous_robot_hand.py
 These files contain the application codes using the D_Former model in different projects. The corresponding saved models are those from the experimental results in the paper.
