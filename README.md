@@ -52,7 +52,7 @@ Durability_1DCNN_shap.py, Durability_gru_shap.py, Durability_lstm_shap.py, Durab
 + batch_inconsistency/
 Contains the model code for addressing sensor batch inconsistency issues and the models saved from the experimental results in the paper:
     + Model Folder:
-BatchDiversity_1DCNN_01-pre3.ipynb, BatchDiversity_GRU_01-pre3.ipynb, BatchDiversity_LSTM_01-pre3.ipynb, BatchDiversity_Transformer_01-pre3.ipynb, BatchDiversity_D_Former_01-pre10.ipynb
+BatchDiversity_1DCNN_01-pre3.ipynb, BatchDiversity_GRU_01-pre3.ipynb, BatchDiversity_LSTM_01-pre3.ipynb, BatchDiversity_Transformer_01-pre3.ipynb, BatchDiversity_D_Former_01-pre10.ipynb. 
 These five Jupyter Notebooks are the training files. The saved models in these notebooks are those obtained from the experimental results in the paper.
     + Visualization Code:
 ood_umap.py
