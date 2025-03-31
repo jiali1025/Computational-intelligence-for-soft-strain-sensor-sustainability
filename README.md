@@ -1,6 +1,6 @@
 # Computational-intelligence-for-soft-strain-sensor-sustainability
 
-###Installation
+### Installation
 The requirement environment is as follow
 * Operating System: Windows / macOS / Linux
 * python >= 3.8
@@ -18,7 +18,7 @@ The requirement environment is as follow
 * transformers~=4.44.2
 * tensorboard~=2.18.0
 
-###Explanation of codes
+### Explanation of codes
 
 This project addresses four key issues regarding sensor sustainability: nonlinearity, hysteresis, cycling attenuation, and batch inconsistency. For each issue, we provide model code along with the models saved from the experimental results in the paper. Details are as follows:
 
@@ -44,8 +44,8 @@ These are the SHAP analysis codes for the above models, used to explain the mode
 + cycling_attenuation/
 Contains the model code for addressing sensor cycling attenuation issues and the models saved from the experimental results in the paper:
     + Model Folder:
-Durability_1DCNN.py, Durability_GRU.py, Durability_LSTM.py, Durability Transformer.py, Durability_D_Former.py. These five files are the training scripts for different models.
-In Durability_D_Former.py, causal convolutional operations and a Rotary embedding mechanism are employed (for details, please refer to the paper). The related functionalities are implemented in causal_convolution_layer.py and the code within the RoFormer folder.
+Durability_1DCNN.py, Durability_GRU.py, Durability_LSTM.py, Durability Transformer.py, Durability_D_Former.py. These five files are the training scripts for different models.
+In Durability_D_Former.py, causal convolutional operations and a Rotary embedding mechanism are employed (for details, please refer to the paper). The related functionalities are implemented in causal_convolution_layer.py and the code within the RoFormer folder.
     + SHAP Folder:
 Durability_1DCNN_shap.py, Durability_gru_shap.py, Durability_lstm_shap.py, Durability_Transformer_Shap.py, Durability_DFormer_shap.py. These are the SHAP analysis codes corresponding to the five models.
 
